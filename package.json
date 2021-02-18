@@ -1,0 +1,64 @@
+{
+  "name": "react-memoization-hooks",
+  "description": "react-memoization-hooks",
+  "version": "0.1.0",
+  "author": "vitormalencar <vitor.maia.alencar@gmail.com>",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "keywords": [
+    "hooks",
+    "react"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "start:server": "json-server --watch db.json --port 3001"
+  },
+  "devDependencies": {
+    "husky": ">=4",
+    "json-server": "^0.16.3",
+    "lint-staged": ">=10",
+    "prettier": "2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}

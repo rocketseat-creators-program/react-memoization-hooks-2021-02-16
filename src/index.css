@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  overflow: auto;
+  height: 100vh;
+}
+.list {
+  padding-top: 100px;
+}
+.toggle__dot {
+  top: -0.25rem;
+  left: -0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+  background-color: #21e372;
+}
+.repl-list-item {
+  padding: 1rem;
+  margin: 1rem;
+  background: hsl(0, 0%, 81%);
+}
+
+.float-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.float-btn-rocket {
+  background-color: #6b7280;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 50px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
