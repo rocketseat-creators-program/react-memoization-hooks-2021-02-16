@@ -1,10 +1,16 @@
-<h1 align="center">Memoization with hooks</h1>
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-<br>
-<br>
-<img src='./artwork.png'/>
-<br>
-<br>
+
+## Controlando Performance com React Memo, useCallback e useMemo
+
+Nesta aula, criaremos um aplicativo que consumirá dados da API GitHub,
+e com isso, seremos capazes de navegar por vários conceitos de **melhoria e análise de desempenho**,
+aprenderemos como usar hooks como `useMemo` e `useCallback` a nosso favor para controlar o desempenho das nossas aplicações,
+fazendo memoização de cálculos e funções pesadas, também veremos como
+analisar nossa renderização com `React Developer Tools` e usar a API `Memo` do React para evitar
+renderizações desnecessárias de nossos componentes, no final dessa aula, você será capaz
+aplicar esses conceitos para analisar e melhorar o desempenho de seus aplicativos em react.
+
 
 ## Primeiros passos 🏁
 
